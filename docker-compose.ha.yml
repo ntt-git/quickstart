@@ -145,7 +145,7 @@ services:
       <<: *logging
 
   msa-api:
-    image: openmsa/openmsa:msa2-api-2.8.7.1-8fb255170a19474561425daeba1c7368c08c0b2d
+    image: openmsa/openmsa:msa2-api-2.8.7-c7c919b700e637336c5f67f1ae1e5b16f98e257f
     depends_on:
       - db
     healthcheck:
